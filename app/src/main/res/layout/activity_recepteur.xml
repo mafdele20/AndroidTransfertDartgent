@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RecepteurActivity"
+    android:background="@color/backgroud">
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:text="Nom Recepteur"
+        android:textColor="@color/gold"
+        android:textSize="32dp" />
+
+    <EditText
+        android:id="@+id/nomR"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_margin="3dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:text="Prenom Recepteur"
+        android:textColor="@color/gold"
+        android:textSize="32dp" />
+
+    <EditText
+        android:id="@+id/prenomR"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_margin="3dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:text="Telephone Recepteur"
+        android:textColor="@color/gold"
+        android:textSize="32dp" />
+
+    <EditText
+        android:id="@+id/telephoneR"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_margin="3dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/suivant2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:text="@string/suivant" />
+
+</LinearLayout>

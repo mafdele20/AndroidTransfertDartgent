@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Bank Tranfert</string>
+    <string name="welcome">Faire un Transfert</string>
+    <string name="suivant">Suivant</string>
+    <string name="envoyer">Envoyer</string>
+    <string name="listerenvoie">lister les envoies</string>
+    <string name="item_default_name">Date d\'envoie</string>
+    <string name="item_default_montant">0 fcfa</string>
+    <string name="item_default_emetteur">Fall</string>
+    <string name="item_default_recepteur">Gadiaga</string>
+</resources>

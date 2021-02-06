@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroud"
+    android:orientation="vertical"
+    tools:context=".EmetteurActivity">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom Emetteur"
+        android:textColor="@color/gold"
+        android:textSize="32dp"
+        android:layout_margin="3dp"
+       />
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_margin="3dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prenom Emetteur"
+        android:textColor="@color/gold"
+        android:textSize="32dp"
+        android:layout_margin="3dp"
+        />
+
+    <EditText
+        android:id="@+id/prenom"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_margin="3dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telephone Emetteur"
+        android:textColor="@color/gold"
+        android:textSize="32dp"
+        android:layout_margin="3dp"
+        />
+    <EditText
+        android:id="@+id/telephone"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_margin="3dp"
+        android:background="@color/white"/>
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CIN  Emetteur"
+        android:textColor="@color/gold"
+        android:textSize="32dp"
+        android:layout_margin="3dp"
+        />
+    <EditText
+        android:id="@+id/cin"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_margin="3dp"
+        android:background="@color/white"/>
+
+    <Button
+        android:id="@+id/suivant1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:text="@string/suivant" />
+</LinearLayout>
